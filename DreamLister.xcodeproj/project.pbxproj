@@ -22,6 +22,7 @@
 		188F00F11F446379000BCAE7 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F00E91F446379000BCAE7 /* Item+CoreDataClass.swift */; };
 		188F00F21F446379000BCAE7 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188F00EA1F446379000BCAE7 /* Item+CoreDataProperties.swift */; };
 		18F0AF031F449691008104C8 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AF021F449691008104C8 /* MaterialView.swift */; };
+		18F0AF051F449A16008104C8 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F0AF041F449A16008104C8 /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		188F00E91F446379000BCAE7 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
 		188F00EA1F446379000BCAE7 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		18F0AF021F449691008104C8 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		18F0AF041F449A16008104C8 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				18F0AF021F449691008104C8 /* MaterialView.swift */,
+				18F0AF041F449A16008104C8 /* ItemCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F0AF051F449A16008104C8 /* ItemCell.swift in Sources */,
 				188F00F11F446379000BCAE7 /* Item+CoreDataClass.swift in Sources */,
 				188F00EC1F446379000BCAE7 /* Store+CoreDataProperties.swift in Sources */,
 				188F00D11F445B41000BCAE7 /* MainVC.swift in Sources */,
